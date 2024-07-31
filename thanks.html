@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <meta name="description"
+    content="大阪府大阪市に拠点をおく青牡丹工務店は、丁寧な家造りで理想を現実にします。住宅建築からリフォームまで、高品質なサービスと経験豊富なスタッフがお客様のニーズに応えます。お気軽にご相談ください。">
+  <title>お問い合わせありがとうございます。 | 青牡丹工務店 | 大阪市北区の住宅建築・リフォーム・公共事業なら青牡丹工務店</title>
+  <link rel="shortcut icon" href="img/favicon-aobotan.svg" type="image/x-icon">
+  <!-- GoogleFonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Kaku+Gothic+New&display=swap"
+    rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body class="thanksTop">
+  <div class="bodyContainer">
+
+    <div id="header"></div>
+
+    <div class="bodyWrapper">
+      <div class="bgColor">
+      </div><!-- /.bgColor -->
+      <div class="topImg">
+        <img src="img/Firefly87080.jpg" alt="">
+      </div><!-- /.topImg -->
+      <main>
+        <section class="contentsTop" id="thanks">
+          <div class="contentsTopInner">
+            <div class="contentsTopContent">
+              <h2>送信完了</h2>
+              <p>お問い合わせありがとうございました。<br>
+                後日担当者より返信させていただきますので、お待ち下さいませ。</p>
+            </div><!-- /.aboutTopContent -->
+            <img src="img/contact_01.svg" alt="">
+          </div><!-- /.contentsTopInner -->
+        </section><!-- /.contentsTop -->
+        <section class="formWrapper">
+          <div class="formContainer">
+            <div class="progress">
+              <div class="progressBox">
+                <p class="progressNum">01</p><!-- /.progressNum -->
+                <p class="progressText">入力</p>
+              </div><!--./progressBox-->
+              <div class="progressBox_active">
+                <p class="progressNum">02</p><!-- /.progressNum -->
+                <p class="progressText">完了</p>
+              </div><!--./progressBox-->
+            </div><!-- /.progress -->
+            <a href="index.html" class="formBtn goTop">トップページに戻る</a>
+          </div><!-- /.formContainer -->
+          <div class="contactTel">
+            <p class="contactTelText">お電話も受け付けています。</p>
+            <p class="phoneNum">0000-000-0000</p>
+            <p class="bussinesHours">営業時間10:00-20:00</p>
+          </div><!-- /.contactTel -->
+        </section><!-- /.formWrapper -->
+      </main>
+
+      <div id="footer"></div>
+
+    </div><!-- /.wrapper -->
+  </div><!-- /.bodyContainer -->
+  <script>
+    fetch("header.html")
+      .then((response) => response.text())
+      .then((data) => document.querySelector("#header").innerHTML = data);
+    fetch("footer.html")
+      .then((response) => response.text())
+      .then((data) => document.querySelector("#footer").innerHTML = data);
+  </script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
