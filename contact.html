@@ -23,8 +23,107 @@
 
 <body class="contactTop">
   <div class="bodyContainer">
-
-    <div id="header"></div>
+    <header>
+      <div class="pcMenu">
+        <h1 class="pcLogo">
+          <a href="index.html">
+            <img src="img/logo-pc.svg" alt="青牡丹工務店" width="200" height="121">
+          </a>
+        </h1><!-- /.pcLogo -->
+        <nav class="pcNav">
+          <ul class="pcNavAccordion">
+            <li>
+              <div class="menuTitle">
+                <a class="mainMenu" href="about.html">私達について</a>
+                <ul class="subMenu">
+                  <li>
+                    <a href="about.html#philosophy">経営理念</a>
+                  </li>
+                  <li>
+                    <a href="about.html#company">会社概要</a>
+                  </li>
+                  <li>
+                    <a href="about.html#safety">安全への取り組み</a>
+                  </li>
+                </ul><!-- /.subMenu -->
+              </div><!--/.menuTitle-->
+            </li>
+            <li>
+              <div class="menuTitle">
+                <a class="mainMenu" href="service.html">事業内容</a>
+                <ul class="subMenu">
+                  <li>
+                    <a href="service.html#housereform">住宅建築・リフォーム</a>
+                  </li>
+                  <li>
+                    <a href="service.html#corporationreform">法人新築・リフォーム</a>
+                  </li>
+                  <li>
+                    <a href="service.html#public">公共工事</a>
+                  </li>
+                </ul><!-- /.subMenu -->
+              </div><!--/.menuTitle-->
+            </li>
+            <li>
+              <a class="mainMenu" href="index.html#news">お知らせ</a>
+            </li>
+            <li>
+              <a class="mainMenu" href="contact.html"><img src="img/mail.svg" alt="">お問い合わせ</a>
+            </li>
+          </ul><!--/.pcNavAccordion -->
+        </nav><!-- /.pcNav -->
+      </div><!-- /.pcMenu -->
+      <div class="spMenuWrapper">
+        <div class="spMenuLogo">
+          <a href="index.html">
+            <img src="img/logo-pc.svg" alt="" width="98" height="59">
+          </a>
+        </div><!-- /.spMenuLogo -->
+        <div id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div><!-- /.spgNav_burger -->
+      </div><!-- /.spMenu -->
+    </header>
+    <div class="spgNav" id="spNav">
+      <ul class="">
+        <li>
+          <a href="index.html">トップページ</a>
+        </li>
+        <li>
+          <a href="about.html">私たちについて</a>
+        </li>
+        <li>
+          <a href="about.html#philosophy">経営理念</a>
+        </li>
+        <li>
+          <a href="about.html#company">会社概要</a>
+        </li>
+        <li>
+          <a href="about.html#safety">安全への取り組み</a>
+        </li>
+        <li>
+          <a href="service.html">事業内容</a>
+        </li>
+        <li>
+          <a href="service.html#housereform">住宅建築・リフォーム</a>
+        </li>
+        <li>
+          <a href="service.html#corporationreform">法人新築・リフォーム</a>
+        </li>
+        <li>
+          <a href="service.html#public">公共工事</a>
+        </li>
+        <li>
+          <a href="index.html#news">お知らせ</a>
+        </li>
+        <li>
+          <a href="contact.html"><img src="img/mail.svg" alt="" class="mail_icon">お問い合わせ</a>
+        </li>
+      </ul><!-- /.spgNav -->
+      <p><small>© AOBOTAN INC.</small></p>
+    </div><!-- /.spMenu -->
 
     <div class="bodyWrapper">
       <div class="bgColor">
@@ -60,24 +159,23 @@
                 <div class="radioBox">
                   <p class="labelTitle">お問い合わせの種類<small class="required"><span>★</span>必須</small></p>
                   <div class="radioBoxInner">
-                    <input type="radio" name="entry.1886721898" id="radio1" class="radio" value="注文住宅の相談" required
-                      checked>
+                    <input type="radio" name="entry.1886721898" id="radio1" class="radio" value="注文住宅の相談" checked>
                     <label for="radio1">注文住宅の相談</label>
                   </div><!-- /.radioBoxInner -->
                   <div class="radioBoxInner">
-                    <input type="radio" name="entry.1886721898" id="radio2" class="radio" value="法人建築の相談" required>
-                    <label for="radio2">法人建築の相談</lab>
+                    <input type="radio" name="entry.1886721898" id="radio2" class="radio" value="法人建築の相談">
+                    <label for="radio2">法人建築の相談</label>
                   </div><!-- /.radioBoxInner -->
                   <div class="radioBoxInner">
-                    <input type="radio" name="entry.1886721898" id="radio3" class="radio" value="リフォームの相談" required>
+                    <input type="radio" name="entry.1886721898" id="radio3" class="radio" value="リフォームの相談">
                     <label for="radio3">リフォームの相談</label>
                   </div><!-- /.radioBoxInner -->
                   <div class="radioBoxInner">
-                    <input type="radio" name="entry.1886721898" id="radio4" class="radio" value="公共工事の相談" required>
+                    <input type="radio" name="entry.1886721898" id="radio4" class="radio" value="公共工事の相談">
                     <label for="radio4">公共工事の相談</label>
                   </div><!-- /.radioBoxInner -->
                   <div class="radioBoxInner">
-                    <input type="radio" name="entry.1886721898" id="radio5" class="radio" value="その他" required>
+                    <input type="radio" name="entry.1886721898" id="radio5" class="radio" value="その他">
                     <label for="radio5">その他</label>
                   </div><!-- /.radioBoxInner -->
                 </div><!-- /.radioBox -->
@@ -89,7 +187,7 @@
                     <input type="text" name="entry.1918565578" id="family-name" placeholder="青牡丹"
                       autocomplete="family-name" required>
                     <input type="text" name="entry.648940625" id="given-name" placeholder="幸太郎"
-                      autocomplete="given-name" required>
+                      autocomplete="given-name">
                   </div><!-- /.nameBoxInner -->
                 </div><!-- /.nameBox -->
                 <div class="formBox">
@@ -97,7 +195,7 @@
                     メールアドレス<small class="required"><span>★</span>必須</small>
                   </label>
                   <input type="email" name="entry.74890648" id="email" placeholder="aobotan@gmail.com"
-                    autocomplete="email" required>
+                    autocomplete="email">
                 </div><!-- /.formBox -->
                 <div class="formBox">
                   <label for="tel" class="labelTitle">
@@ -106,7 +204,7 @@
                   <input type="tel" name="entry.172182946" id="tel" placeholder="000-0000-0000" autocomplete="tel">
                 </div><!-- /.formBox -->
                 <div class="formBox">
-                  <label for="address" class="labelTitle" required>
+                  <label for="address" class="labelTitle">
                     住所<small class="required"><span>★</span>必須</small>
                   </label>
                   <input type="text" name="entry.1009330545" id="address" placeholder="大阪府大阪市中央区北区南町5-6-7"
@@ -120,8 +218,6 @@
                 <button type="submit" class="formBtn submitBtn" id="submitBtn" disabled>送信する</button>
                 <p class="false-message">送信できませんでした</p><!-- /.false-message -->
               </form>
-
-
             </div><!-- /.form -->
           </div><!-- /.formContainer -->
           <div class="contactTel">
@@ -132,18 +228,60 @@
         </section><!-- /.formWrapper -->
       </main>
 
-      <div id="footer"></div>
-
+      <footer>
+        <section class="footContact">
+          <h2 class="contentsTitle">お問い合わせ</h2>
+          <h2 class="contentsTitleEn">
+            CONTACT
+          </h2><!-- contentsTitle -->
+          <img src="img/financing_01.svg" alt="" class="footContactImg">
+          <div class="footContactInner">
+            <div class="tel">
+              <span>Tel</span>
+              <p>お電話</p>
+            </div><!-- /.tel -->
+            <div class="telNum">
+              <span>0000-000-0000</span>
+              <p>営業時間10:00-20:00</p>
+            </div><!-- /.telNum -->
+            <div class="mail">
+              <a href="contact.html" class="mailBtn">
+                <img src="img/mail.svg" alt="" class="mail_icon">メールフォームはこちら
+              </a>
+            </div><!-- /.mail -->
+          </div><!-- /.footContactInner -->
+        </section><!-- /.footContact -->
+        <div class="footWrapper">
+          <div class="footCompany">
+            <img src="img/logo-pc.svg" alt="">
+            <p>〒000-0000　大阪府大阪市中央区北区南町5-6-7</p>
+            <p>営業時間　10:00~20:00</p>
+            <p>定休日　日曜日、祝日、年末年始（12月31日から1月3日まで）</p>
+          </div><!-- /.footCompany -->
+          <div class="footMenu">
+            <ul>
+              <li><a href="index.html">トップページ</a></li>
+              <li><a href="about.html">私たちについて</a></li>
+              <li><a href="about.html#philosophy">経営理念</a></li>
+            </ul>
+            <ul>
+              <li><a href="about.html#company">会社概要</a></li>
+              <li><a href="about.html#safety">安全への取り組み</a></li>
+              <li><a href="service.html">事業内容</a></li>
+              <li><a href="service.html#housereform">住宅建築・リフォーム</a></li>
+            </ul>
+            <ul>
+              <li><a href="service.html#corporationreform">法人新築・リフォーム</a></li>
+              <li><a href="service.html#public">公共工事</a></li>
+              <li><a href="index.html#news">お知らせ</a></li>
+              <li><a href="contact.html"><img src="img/mail.svg" alt="" class="mail_icon">お問い合わせ</a></li>
+            </ul>
+          </div><!-- /.footMenu -->
+        </div><!-- /.footWrapper -->
+        <p><small>© AOBOTAN INC.</small></p>
+      </footer>
     </div><!-- /.wrapper -->
   </div><!-- /.bodyContainer -->
-  <script>
-    fetch("header.html")
-      .then((response) => response.text())
-      .then((data) => document.querySelector("#header").innerHTML = data);
-    fetch("footer.html")
-      .then((response) => response.text())
-      .then((data) => document.querySelector("#footer").innerHTML = data);
-  </script>
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>

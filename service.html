@@ -23,8 +23,107 @@
 
 <body class="serviceTop">
   <div class="bodyContainer">
-
-    <div id="header"></div>
+    <header>
+      <div class="pcMenu">
+        <h1 class="pcLogo">
+          <a href="index.html">
+            <img src="img/logo-pc.svg" alt="青牡丹工務店" width="200" height="121">
+          </a>
+        </h1><!-- /.pcLogo -->
+        <nav class="pcNav">
+          <ul class="pcNavAccordion">
+            <li>
+              <div class="menuTitle">
+                <a class="mainMenu" href="about.html">私達について</a>
+                <ul class="subMenu">
+                  <li>
+                    <a href="about.html#philosophy">経営理念</a>
+                  </li>
+                  <li>
+                    <a href="about.html#company">会社概要</a>
+                  </li>
+                  <li>
+                    <a href="about.html#safety">安全への取り組み</a>
+                  </li>
+                </ul><!-- /.subMenu -->
+              </div><!--/.menuTitle-->
+            </li>
+            <li>
+              <div class="menuTitle">
+                <a class="mainMenu" href="service.html">事業内容</a>
+                <ul class="subMenu">
+                  <li>
+                    <a href="service.html#housereform">住宅建築・リフォーム</a>
+                  </li>
+                  <li>
+                    <a href="service.html#corporationreform">法人新築・リフォーム</a>
+                  </li>
+                  <li>
+                    <a href="service.html#public">公共工事</a>
+                  </li>
+                </ul><!-- /.subMenu -->
+              </div><!--/.menuTitle-->
+            </li>
+            <li>
+              <a class="mainMenu" href="index.html#news">お知らせ</a>
+            </li>
+            <li>
+              <a class="mainMenu" href="contact.html"><img src="img/mail.svg" alt="">お問い合わせ</a>
+            </li>
+          </ul><!--/.pcNavAccordion -->
+        </nav><!-- /.pcNav -->
+      </div><!-- /.pcMenu -->
+      <div class="spMenuWrapper">
+        <div class="spMenuLogo">
+          <a href="index.html">
+            <img src="img/logo-pc.svg" alt="" width="98" height="59">
+          </a>
+        </div><!-- /.spMenuLogo -->
+        <div id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div><!-- /.spgNav_burger -->
+      </div><!-- /.spMenu -->
+    </header>
+    <div class="spgNav" id="spNav">
+      <ul class="">
+        <li>
+          <a href="index.html">トップページ</a>
+        </li>
+        <li>
+          <a href="about.html">私たちについて</a>
+        </li>
+        <li>
+          <a href="#philosophy">経営理念</a>
+        </li>
+        <li>
+          <a href="#company">会社概要</a>
+        </li>
+        <li>
+          <a href="about.html#safety">安全への取り組み</a>
+        </li>
+        <li>
+          <a href="service.html">事業内容</a>
+        </li>
+        <li>
+          <a href="service.html#housereform">住宅建築・リフォーム</a>
+        </li>
+        <li>
+          <a href="service.html#corporationreform">法人新築・リフォーム</a>
+        </li>
+        <li>
+          <a href="service.html#public">公共工事</a>
+        </li>
+        <li>
+          <a href="index.html#news">お知らせ</a>
+        </li>
+        <li>
+          <a href="contact.html"><img src="img/mail.svg" alt="" class="mail_icon">お問い合わせ</a>
+        </li>
+      </ul><!-- /.spgNav -->
+      <p><small>© AOBOTAN INC.</small></p>
+    </div><!-- /.spMenu -->
 
     <div class="bodyWrapper">
       <div class="bgColor">
@@ -50,94 +149,136 @@
         <section class="houseReform" id="housereform">
           <div class="serviceWrapper">
             <img src="img/works01.jpg" alt="" width="960" height="400">
-            <h3>住宅建築・リフォーム</h3>
-            <div class="serviceInner">
-              <h4>当社の住宅建築・リフォーム事業では、<br>
-                お客様の夢や理想を具現化するための<br>
-                サービスを提供しています。</h4>
-              <p>
-                新しい家を建てる際には、お客様のニーズや希望を理解し、オーダーメイドの住宅を設計・施工します。<br>また、古くなったり、機能性が低下したりした建物を、新しい価値ある空間へと再生するリフォームサービスを提供しています。お客様のライフスタイルやニーズに合わせて、効率的かつリーズナブルなリフォームプランをご提案し、品質に妥協することなく施工いたします。
-              </p>
-            </div><!-- /.serviceInner -->
-            <div class="caseImgWrapper">
-              <div>
-                <h5>芦屋（兵庫県）のコテージ付き住宅</h5>
-                <img src="img/jirei01.jpg" alt="芦屋（兵庫県）のコテージ付き住宅の画像" width="352" height="274">
-                <p>施工年月：R2年2月 構造：S造</p>
-              </div>
-              <div>
-                <h5>鷹峯（京都府京都市）のモダン和風住宅</h5>
-                <img src="img/jirei02.jpg" alt="鷹峯（京都府京都市）のモダン和風住宅の画像" width="352" height="274">
-                <p>施工年月：R4年4月 構造：木造</p>
-              </div>
-            </div><!-- /.serviceImgWrapper -->
+            <div class="serviceContainer">
+              <h3>住宅建築・リフォーム</h3>
+              <div class="serviceInner">
+                <h4>当社の住宅建築・リフォーム事業では、<br>
+                  お客様の夢や理想を具現化するための<br>
+                  サービスを提供しています。</h4>
+                <p>新しい家を建てる際には、お客様のニーズや希望を理解し、オーダーメイドの住宅を設計・施工します。<br>また、古くなったり、機能性が低下したりした建物を、新しい価値ある空間へと再生するリフォームサービスを提供しています。お客様のライフスタイルやニーズに合わせて、効率的かつリーズナブルなリフォームプランをご提案し、品質に妥協することなく施工いたします。</p>
+              </div><!-- /.serviceInner -->
+              <div class="caseImgWrapper">
+                <div>
+                  <h5>芦屋（兵庫県）のコテージ付き住宅</h5>
+                  <img src="img/jirei01.jpg" alt="芦屋（兵庫県）のコテージ付き住宅の画像" width="352" height="274">
+                  <p>施工年月：R2年2月 構造：S造</p>
+                </div>
+                <div>
+                  <h5>鷹峯（京都府京都市）のモダン和風住宅</h5>
+                  <img src="img/jirei02.jpg" alt="鷹峯（京都府京都市）のモダン和風住宅の画像" width="352" height="274">
+                  <p>施工年月：R4年4月 構造：木造</p>
+                </div>
+              </div><!-- /.serviceImgWrapper -->
+            </div><!-- /.serviceContainer -->
           </div><!-- /.serviceWrapper -->
         </section><!-- /.houseReform -->
         <section class="corporationReform" id="corporationreform">
           <div class="serviceWrapper">
             <img src="img/works02.jpg" alt="" width="960" height="400">
-            <h3>法人新築・リフォーム</h3>
-            <div class="serviceInner">
-              <h4>当社の法人新築・リフォームサービスでは、商業施設やオフィスビル、工場など、法人向けの建物の新築や改修を手がけています。</h4>
-              <p>
-                既存の商業施設やオフィス、工場などの建物を改修し、最新のビジネスニーズに適した空間へと生まれ変わらせます。設備の更新やレイアウトの見直し、外装や内装のリニューアルなど、お客様の要望に応じたリフォームプランを提案し、スムーズな工事を実施します。
-              </p>
-            </div><!-- /.serviceInner -->
-            <div class="caseImgWrapper">
-              <div>
-                <h5>株式会社kaminari station</h5>
-                <img src="img/jirei03.jpg" alt="株式会社kaminari stationの画像" width="352" height="274">
-                <p>施工年月：H25年4月 構造：S造</p>
-              </div>
-              <div>
-                <h5>鯉登陸運(株)</h5>
-                <img src="img/jirei04.jpg" alt="鯉登陸運の画像" width="352" height="274">
-                <p>施工年月：R4年3月 構造：S造</p>
-              </div>
-            </div><!-- /.serviceImgWrapper -->
+            <div class="serviceContainer">
+              <h3>法人新築・リフォーム</h3>
+              <div class="serviceInner">
+                <h4>当社の法人新築・リフォームサービスでは、商業施設やオフィスビル、工場など、法人向けの建物の新築や改修を手がけています。</h4>
+                <p>既存の商業施設やオフィス、工場などの建物を改修し、最新のビジネスニーズに適した空間へと生まれ変わらせます。設備の更新やレイアウトの見直し、外装や内装のリニューアルなど、お客様の要望に応じたリフォームプランを提案し、スムーズな工事を実施します。</p>
+              </div><!-- /.serviceInner -->
+              <div class="caseImgWrapper">
+                <div>
+                  <h5>株式会社kaminari station</h5>
+                  <img src="img/jirei03.jpg" alt="株式会社kaminari stationの画像" width="352" height="274">
+                  <p>施工年月：H25年4月 構造：S造</p>
+                </div>
+                <div>
+                  <h5>鯉登陸運(株)</h5>
+                  <img src="img/jirei04.jpg" alt="鯉登陸運の画像" width="352" height="274">
+                  <p>施工年月：R4年3月 構造：S造</p>
+                </div>
+              </div><!-- /.serviceImgWrapper -->
+            </div><!-- /.serviceContainer -->
           </div><!-- /.serviceWrapper -->
         </section><!-- /.corporationReform -->
 
         <section class="public" id="public">
           <div class="serviceWrapper">
             <img src="img/works03.jpg" alt="" width="960" height="400">
-            <h3>公共工事</h3>
-            <div class="serviceInner">
-              <h4>公共工事事業は、道路や橋梁、公共施設などの建設・改修を行う事業です。</h4>
-              <p>
-                公共工事事業は、地域社会の発展や住民の生活に密接に関わる重要な事業です。政府や自治体からの発注が多く、厳しい品質基準や工期管理が求められます。当社では、経験豊富な専門家がチームを組み、最新の技術とノウハウを駆使して、安全で信頼性の高い公共施設の建設に貢献しています。
-              </p>
-            </div><!-- /.serviceInner -->
-            <div class="caseImgWrapper">
-              <div>
-                <h5>神戸市立真島小学校　内装工事</h5>
-                <img src="img/jirei05.jpg" alt="神戸市立真島小学校の画像" width="352" height="274">
-                <p>施工年月：R1年3月 構造：S造</p>
-              </div>
-              <div>
-                <h5>枚方市立暮方郵便局</h5>
-                <img src="img/jirei06.jpg" alt="枚方市立暮方郵便局の画像" width="352" height="274">
-                <p>施工年月：R4年4月 構造：木造</p>
-              </div>
-            </div><!-- /.serviceImgWrapper -->
+            <div class="serviceContainer">
+              <h3>公共工事</h3>
+              <div class="serviceInner">
+                <h4>公共工事事業は、道路や橋梁、公共施設などの建設・改修を行う事業です。</h4>
+                <p>公共工事事業は、地域社会の発展や住民の生活に密接に関わる重要な事業です。政府や自治体からの発注が多く、厳しい品質基準や工期管理が求められます。当社では、経験豊富な専門家がチームを組み、最新の技術とノウハウを駆使して、安全で信頼性の高い公共施設の建設に貢献しています。</p>
+              </div><!-- /.serviceInner -->
+              <div class="caseImgWrapper">
+                <div>
+                  <h5>神戸市立真島小学校　内装工事</h5>
+                  <img src="img/jirei05.jpg" alt="神戸市立真島小学校の画像" width="352" height="274">
+                  <p>施工年月：R1年3月 構造：S造</p>
+                </div>
+                <div>
+                  <h5>枚方市立暮方郵便局</h5>
+                  <img src="img/jirei06.jpg" alt="枚方市立暮方郵便局の画像" width="352" height="274">
+                  <p>施工年月：R4年4月 構造：木造</p>
+                </div>
+              </div><!-- /.serviceImgWrapper -->
+            </div><!-- /.serviceContainer -->
           </div><!-- /.serviceWrapper -->
         </section><!-- /.public -->
       </main>
-      <div id="footer"></div>
+      <footer>
+        <section class="footContact">
+          <h2 class="contentsTitle">お問い合わせ</h2>
+          <h2 class="contentsTitleEn">
+            CONTACT
+          </h2><!-- contentsTitle -->
+          <img src="img/financing_01.svg" alt="" class="footContactImg">
+          <div class="footContactInner">
+            <div class="tel">
+              <span>Tel</span>
+              <p>お電話</p>
+            </div><!-- /.tel -->
+            <div class="telNum">
+              <span>0000-000-0000</span>
+              <p>営業時間10:00-20:00</p>
+            </div><!-- /.telNum -->
+            <div class="mail">
+              <a href="contact.html" class="mailBtn">
+                <img src="img/mail.svg" alt="" class="mail_icon">メールフォームはこちら
+              </a>
+            </div><!-- /.mail -->
+          </div><!-- /.footContactInner -->
+        </section><!-- /.footContact -->
+        <div class="footWrapper">
+          <div class="footCompany">
+            <img src="img/logo-pc.svg" alt="">
+            <p>〒000-0000　大阪府大阪市中央区北区南町5-6-7</p>
+            <p>営業時間　10:00~20:00</p>
+            <p>定休日　日曜日、祝日、年末年始（12月31日から1月3日まで）</p>
+          </div><!-- /.footCompany -->
+          <div class="footMenu">
+            <ul>
+              <li><a href="index.html">トップページ</a></li>
+              <li><a href="about.html">私たちについて</a></li>
+              <li><a href="about.html#philosophy">経営理念</a></li>
+            </ul>
+            <ul>
+              <li><a href="about.html#company">会社概要</a></li>
+              <li><a href="about.html#safety">安全への取り組み</a></li>
+              <li><a href="service.html">事業内容</a></li>
+              <li><a href="service.html#housereform">住宅建築・リフォーム</a></li>
+            </ul>
+            <ul>
+              <li><a href="service.html#corporationreform">法人新築・リフォーム</a></li>
+              <li><a href="service.html#public">公共工事</a></li>
+              <li><a href="index.html#news">お知らせ</a></li>
+              <li><a href="contact.html"><img src="img/mail.svg" alt="" class="mail_icon">お問い合わせ</a></li>
+            </ul>
+          </div><!-- /.footMenu -->
+        </div><!-- /.footWrapper -->
+        <p><small>© AOBOTAN INC.</small></p>
+      </footer>
     </div><!-- /.wrapper -->
   </div><!-- /.bodyContainer -->
-  <script>
-    fetch("header.html")
-      .then((response) => response.text())
-      .then((data) => document.querySelector("#header").innerHTML = data);
-    fetch("footer.html")
-      .then((response) => response.text())
-      .then((data) => document.querySelector("#footer").innerHTML = data);
-  </script>
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
   <script src="js/main.js"></script>
 </body>
 
